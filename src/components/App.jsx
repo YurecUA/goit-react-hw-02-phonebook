@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import shortid from 'shortid';
-import s from './App.module.css';
+import styles from './App.module.css';
 import ContactList from './ContactList/ContactList';
-import ContactForm from './ContactForm';
-import Filter from './Filter';
+import ContactForm from './ContactForm/ContactForm';
+import Filter from './Filter/Filter';
 
 class App extends Component {
   state = {
@@ -77,8 +77,8 @@ class App extends Component {
         <h1>Phonebook</h1>
         <ContactForm onSubmit={this.addContact} />
 
-        <h2 className={s.titleContacts}>Contacts</h2>
-        <div className={s.allContacts}>All contacts: {contacts.length}</div>
+        <h2 className={styles.titleContacts}>Contacts</h2>
+        <div className={styles.allContacts}>All contacts: {contacts.length}</div>
         <Filter value={filter} onChange={this.changeFilter} />
         <ContactList
           contacts={visibleContacts}
