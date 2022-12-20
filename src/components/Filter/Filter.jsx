@@ -1,16 +1,17 @@
 import React from 'react';
-import s from './Filter.module.css';
+import styles from './Filter.module.css';
 import PropTypes from 'prop-types';
 
+
 const Filter = ({ value, onChange }) => (
-  <div className={s.filter}>
-    <label className={s.labelFilter}>
+  <div className={styles.filter}>
+    <label className={styles.labelFilter}>
       Filter
       <input
         type="name"
         value={value}
         onChange={onChange}
-        className={s.filterInput}
+        className={styles.filterInput}
       />
     </label>
   </div>
