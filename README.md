@@ -1,3 +1,5 @@
+[![GitHub Super-Linter](https://github.com/<YurecUA>/<goit-react-hw-02-phonebook>/workflows/Lint%20Code%20Base/badge.svg)](https://github.com/marketplace/actions/super-linter)
+
 **Read in other languages: [Русский](README.md), [Polska](README.pl.md),
 [English](README.en.md), [Spanish](README.es.md).**
 
